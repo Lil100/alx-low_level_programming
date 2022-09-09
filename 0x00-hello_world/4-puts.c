@@ -6,7 +6,7 @@
  *
  * main - Entry point
  *
- *
+ *Description: Using function puts
  *
  *
  *Return: Always 0 (Success)
