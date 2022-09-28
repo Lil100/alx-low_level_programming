@@ -50,9 +50,11 @@ int compare(char *s, int beg, int end)
 int is_palindrome(char *s)
 {
 	int len, beg, end;
+
 	len = length(s);
 	beg = 0;
 	end = len - 1;
+
 	if (len == 0 || len == 1)
 		return (1);
 	else
