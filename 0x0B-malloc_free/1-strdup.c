@@ -11,18 +11,18 @@ char *_strdup(char *str)
 {
 	int length, i;
 	char *arr;
-	
+
 	if (str == NULL)
 	{
 		return (NULL);
-	
+
 	}
 	length = 0;
 	while (*(str + length) != '\0')
 	{
 		length++;
 	}
-	
+
 	arr = malloc(length * sizeof(char) + 1);
 	if (arr == NULL)
 		return (NULL);
@@ -32,7 +32,7 @@ char *_strdup(char *str)
 		arr[i] = str[i];
 	}
 	arr[i] = '\0';
-	
+
 	return (arr);
 
 }
