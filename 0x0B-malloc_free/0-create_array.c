@@ -1,7 +1,7 @@
 #include"main.h"
 
 /**
- * create_array : creating array
+ * create_array - creating array
  * @size: size of array to be created
  * @c: char to initialize array with
  * Return: NULL if size = 0, pointer to array
